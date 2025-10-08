@@ -1,4 +1,3 @@
-# 🧠 AI Risk Assessment & Explainability Framework for Insurance Claim Prediction
 # 🧠 AI Risk Assessment & Explainability Framework for Insurance Claim Prediction  
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
