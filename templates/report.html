@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Risk Assessment Compliance Report</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">AI Risk Assessment Compliance Report</h1>
+        <p>This report summarizes the findings from the AI Risk Assessment and Explainability Framework.</p>
+        
+        <h2>Key Findings</h2>
+        <ul>
+            <li><strong>Model Accuracy:</strong> [Insert ROC AUC]</li>
+            <li><strong>Explainability:</strong> SHAP and LIME highlight key features influencing decisions.</li>
+            <li><strong>Bias:</strong> Detected demographic parity difference of [Insert Value] for gender.</li>
+            <li><strong>Robustness:</strong> Model performance degrades by [Insert %] under adversarial input perturbations.</li>
+        </ul>
+
+        <h2>Proposed Controls</h2>
+        <ul>
+            <li>Regular fairness audits using Fairlearn.</li>
+            <li>Human-in-the-loop review for edge cases.</li>
+            <li>Monitoring for data drift and retraining triggers.</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>The model meets baseline performance but requires ongoing governance for fairness and robustness.</p>
+    </div>
+</body>
+</html>
